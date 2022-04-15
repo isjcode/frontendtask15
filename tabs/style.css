@@ -1,0 +1,31 @@
+.tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tabs .tab {
+  list-style-type: none;
+  margin-left: 40px;
+  font-size: 40px;
+  display: block;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.active-content {
+  display: block;
+}
+
+.active-tab {
+  background-color: grey;
+}
+
+.deactive-tab {
+  background-color: white;
+}
+
+.deactive-content {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
